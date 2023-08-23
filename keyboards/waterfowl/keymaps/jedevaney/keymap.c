@@ -27,13 +27,17 @@ enum combos {
   YSEMI_BSPC,
   QW_TAB,
   AR_ESC,
-  ZX_CAPS
+  ZX_CAPS,
+  LY_HOME,
+  UY_END
 };
 
 const uint16_t PROGMEM alt_l_combo[] = {KC_N, KC_E, COMBO_END};
 const uint16_t PROGMEM alt_r_combo[] = {KC_E, KC_I, COMBO_END};
 const uint16_t PROGMEM ctrl_l_combo[] = {KC_H, KC_COMM, COMBO_END};
 const uint16_t PROGMEM ctrl_r_combo[] = {KC_COMM, KC_DOT, COMBO_END};
+const uint16_t PROGMEM home_combo[] = {KC_L, KC_U, COMBO_END};
+const uint16_t PROGMEM end_combo[] = {KC_U, KC_Y, COMBO_END};
 const uint16_t PROGMEM tc_enter_combo[] = {KC_BSPC, KC_SPC, COMBO_END};
 const uint16_t PROGMEM enter_combo[] = {KC_I, KC_O, COMBO_END};
 const uint16_t PROGMEM bspc_combo[] = {KC_Y, KC_SCLN, COMBO_END};
@@ -43,9 +47,11 @@ const uint16_t PROGMEM caps_combo[] = {KC_Z, KC_X, COMBO_END};
 
 combo_t key_combos[] = {
   [ALT_L] = COMBO(alt_l_combo, LALT(KC_LEFT)),
-  [ALT_R] = COMBO(alt_r_combo, LALT(KC_RIGHT)),
+  [ALT_R] = COMBO(alt_r_combo, LALT(KC_RGHT)),
   [CTRL_L] = COMBO(ctrl_l_combo, LCTL(KC_LEFT)),
-  [CTRL_R] = COMBO(ctrl_r_combo, LCTL(KC_RIGHT)),
+  [CTRL_R] = COMBO(ctrl_r_combo, LCTL(KC_RGHT)),
+  [LU_HOME] = COMBO(home_combo, KC_HOME),
+  [UY_END] = COMBO(end_combo, KC_END),
   [TC_ENTER] = COMBO(tc_enter_combo, KC_ENT),
   [IO_ENTER] = COMBO(enter_combo, KC_ENT),
   [YSEMI_BSPC] = COMBO(bspc_combo, KC_BSPC),
