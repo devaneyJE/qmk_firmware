@@ -22,7 +22,7 @@
 #define SPLIT_USB_DETECT
 
 // Tapping term
-#define TAPPING_TERM 400
+#define TAPPING_TERM 200
 
 // Custom
 //#define BOTH_SHIFTS_TURN_ON_CAPS_WORD
