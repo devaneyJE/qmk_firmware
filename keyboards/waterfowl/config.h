@@ -26,4 +26,4 @@
 
 // Custom
 //#define BOTH_SHIFTS_TURN_ON_CAPS_WORD
-#define HOLD_ON_OTHER_KEY_PRESS
+#define PERMISSIVE_HOLD
