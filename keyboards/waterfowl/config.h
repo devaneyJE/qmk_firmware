@@ -23,7 +23,10 @@
 
 // Tapping term
 #define TAPPING_TERM 200
-
-// Custom
-//#define BOTH_SHIFTS_TURN_ON_CAPS_WORD
 #define PERMISSIVE_HOLD
+
+// Handedness
+#define EE_HANDS
+
+// Additional
+//#define BOTH_SHIFTS_TURN_ON_CAPS_WORD
