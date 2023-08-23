@@ -28,7 +28,7 @@ enum combos {
   QW_TAB,
   AR_ESC,
   ZX_CAPS,
-  LY_HOME,
+  LU_HOME,
   UY_END
 };
 
