@@ -22,14 +22,14 @@ enum combos {
   ALT_R,
   CTRL_L,
   CTRL_R,
+  LU_HOME,
+  UY_END,
   TC_ENTER,
   IO_ENTER,
   YSEMI_BSPC,
   QW_TAB,
   AR_ESC,
-  ZX_CAPS,
-  LU_HOME,
-  UY_END
+  ZX_CAPS
 };
 
 const uint16_t PROGMEM alt_l_combo[] = {KC_N, KC_E, COMBO_END};
