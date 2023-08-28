@@ -22,5 +22,6 @@ ENCODER_ENABLE = yes	 # Enables the encoders
 CAPS_WORD_ENABLE = yes
 COMBO_ENABLE = yes
 REPEAT_KEY_ENABLE = yes
+MOUSEKEY_ENABLE = yes
 
 #BOOTLOADER = rp2040

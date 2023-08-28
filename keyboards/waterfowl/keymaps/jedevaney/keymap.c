@@ -93,11 +93,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 /* NAV
  *
  * ,----------------------------------.                      ,----------------------------------.
- * |  TAB | PgUp |  UP  | PgDn | Home |                      | Home |PgDown| PgUp |  End |      |
+ * |  TAB | BTN1 | M UP | BTN2 | Home |                      | Home |PgDown| PgUp |  End |      |
  * |------+------+------+------+------|                      |------+------+------+------+------|
- * |  ESC | Left | Down | Right| End  |                      |   H  |   J  |   K  |   L  |      |
+ * |  ESC |M Left|M Down|M Rght| End  |                      |   H  |   J  |   K  |   L  |      |
  * |------+------+------+------+------|  ,-----.    ,-----.  |------+------+------+------+------|
- * | SHIFT|      |  INS |      |PRTSCR|  |C+d/u|    | n/N |  | Left | Down |  Up  | Right|      |
+ * | SHIFT| ACC0 |  INS | ACC2 |PRTSCR|  |C+d/u|    | n/N |  | Left | Down |  Up  | Right|      |
  * `----------------------------------'  `-----'    `-----'  `----------------------------------'
  *          ,-----.   ,--------------------.            ,--------------------.   ,-------. 
  *          |     |   |     |       |      |            |       |    |       |   |       |
@@ -105,9 +105,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  */
 [_NAV] = LAYOUT(
 //[_NAVNUM] = LAYOUT( // removed for line above
-  KC_TAB,    KC_PGUP,    KC_UP,    KC_PGDN,   KC_HOME,    KC_HOME,    KC_PGDN,    KC_PGUP,    KC_END,    KC_NO,
-  KC_ESC,   KC_LEFT,    KC_DOWN,  KC_RGHT,   KC_END,      KC_H,     KC_J,    KC_K,    KC_L,    KC_NO,
-  KC_LSFT,    KC_NO,      KC_INS,  KC_NO,     KC_PSCR,    KC_LEFT,       KC_DOWN,    KC_UP,    KC_RGHT,    KC_NO,
+  KC_TAB,    KC_MS_BTN1,    KC_MS_UP,    KC_MS_BTN2,   KC_HOME,    KC_HOME,    KC_PGDN,    KC_PGUP,    KC_END,    KC_NO,
+  KC_ESC,   KC_MS_LEFT,    KC_MS_DOWN,  KC_MS_RIGHT,   KC_END,      KC_H,     KC_J,    KC_K,    KC_L,    KC_NO,
+  KC_LSFT,    KC_MS_ACCEL0,      KC_INS,  KC_MS_ACCEL2,     KC_PSCR,    KC_LEFT,       KC_DOWN,    KC_UP,    KC_RGHT,    KC_NO,
   KC_TRNS ,KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,       KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS  
 ),
 
