@@ -30,3 +30,4 @@
 
 // Additional
 //#define BOTH_SHIFTS_TURN_ON_CAPS_WORD
+# define CAPS_WORD_TOGGLE_KEY
