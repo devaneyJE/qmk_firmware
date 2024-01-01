@@ -85,7 +85,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  */
 [_CAN] = LAYOUT(
   KC_W,    KC_L,    KC_Y,    KC_P,    KC_K,         KC_Z,    KC_J,    KC_O,    KC_U,    KC_SCLN,
-  LGUI_T(KC_C),    LALT(KC_R),    MT(MOD_LSFT, KC_S),    MT(MOD_LCTL, KC_T),    KC_B,         KC_F,    MT(MOD_RCTL, KC_N),    MT(MOD_RSFT, KC_E),    LALT(KC_I),    RGUI_T(KC_A),
+  LGUI_T(KC_C),    OPT_T(KC_R),    MT(MOD_LSFT, KC_S),    MT(MOD_LCTL, KC_T),    KC_B,         KC_F,    MT(MOD_RCTL, KC_N),    MT(MOD_RSFT, KC_E),    OPT_T(KC_I),    RGUI_T(KC_A),
   KC_X,    KC_V,    KC_D,    KC_G,    KC_Q,         KC_M,    KC_H,    KC_COMM, KC_DOT,  KC_SLSH,
   KC_NO, KC_NO, LT(3,KC_DEL), LT(1,KC_BSPC), KC_NO,         KC_NO, LT(2,KC_SPC), KC_ENT, QK_REP, KC_NO
 ),
@@ -106,7 +106,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 [_NAV] = LAYOUT(
 //[_NAVNUM] = LAYOUT( // removed for line above
   KC_TAB,    KC_MS_BTN1,    KC_MS_UP,    KC_MS_BTN2,   KC_HOME,    KC_HOME,    KC_PGDN,    KC_PGUP,    KC_END,    KC_NO,
-  LGUI_T(KC_ESC),   LALT(KC_MS_LEFT),    LSFT(KC_MS_DOWN),  LCTL(KC_MS_RIGHT),   KC_END,      KC_H,     RCTL(KC_J),    RSFT(KC_K),    LALT(KC_L),    RGUI_T(KC_NO),
+  LGUI_T(KC_ESC),   OPT_T(KC_MS_LEFT),    LSFT(KC_MS_DOWN),  LCTL(KC_MS_RIGHT),   KC_END,      KC_H,     RCTL(KC_J),    RSFT(KC_K),    OPT_T(KC_L),    RGUI_T(KC_NO),
   KC_LSFT,    KC_MS_ACCEL0,      KC_INS,  KC_MS_ACCEL2,     KC_PSCR,    KC_LEFT,       KC_DOWN,    KC_UP,    KC_RGHT,    KC_NO,
   KC_TRNS ,KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,       KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS
 ),
@@ -127,7 +127,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 [_SYMNUM] = LAYOUT(
 //[_SYM] = LAYOUT( // removed line for above
   KC_EXLM, KC_AT, KC_HASH, KC_DLR, KC_PERC,          KC_CIRC, KC_AMPR, KC_ASTR, KC_LPRN, KC_RPRN,
-  LGUI_T(KC_1),  LALT(KC_2),   LSFT(KC_3),  LCTL(KC_4),  KC_5,                 KC_6,  RCTL(KC_7), RSFT(KC_8), LALT(KC_9),   RGUI_T(KC_0),
+  LGUI_T(KC_1),  OPT_T(KC_2),   LSFT(KC_3),  LCTL(KC_4),  KC_5,                 KC_6,  RCTL(KC_7), RSFT(KC_8), OPT_T(KC_9),   RGUI_T(KC_0),
   KC_LSFT, KC_LBRC, KC_RBRC,  KC_LCBR, KC_RCBR,      KC_GRV, KC_EQL,   KC_QUOT,   KC_MINS,   KC_BSLS,
   KC_TRNS ,KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,       KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS
 ),
