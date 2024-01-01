@@ -106,7 +106,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 [_NAV] = LAYOUT(
 //[_NAVNUM] = LAYOUT( // removed for line above
   KC_TAB,    KC_MS_BTN1,    KC_MS_UP,    KC_MS_BTN2,   KC_HOME,    KC_HOME,    KC_PGDN,    KC_PGUP,    KC_END,    KC_NO,
-  LGUI_T(KC_ESC),  LALT_T(KC_KC_MS_LEFT),   LSFT_T(KC_KC_MS_DOWN),  LCTL_T(KC_KC_MS_RIGHT),  KC_END,                 KC_H,  RCTL_T(KC_J), RSFT_T(KC_K), LALT_T(KC_L),   LGUI_T(KC_NO),
+  LGUI_T(KC_ESC),  LALT_T(KC_MS_LEFT),   LSFT_T(KC_MS_DOWN),  LCTL_T(KC_MS_RIGHT),  KC_END,                 KC_H,  RCTL_T(KC_J), RSFT_T(KC_K), LALT_T(KC_L),   LGUI_T(KC_NO),
   KC_LSFT,    KC_MS_ACCEL0,      KC_INS,  KC_MS_ACCEL2,     KC_PSCR,    KC_LEFT,       KC_DOWN,    KC_UP,    KC_RGHT,    KC_NO,
   KC_TRNS ,KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,       KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS
 ),
