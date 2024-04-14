@@ -16,6 +16,18 @@
 
 #pragma once
 
-#define OLED_DISPLAY_128X64
-
+//#define OLED_DISPLAY_128X64
+#define SPLIT_MODS_ENABLE
+#define SPLIT_WPM_ENABLE
 #define SPLIT_USB_DETECT
+
+// Tapping term
+#define TAPPING_TERM 300
+#define PERMISSIVE_HOLD
+
+// Handedness
+#define EE_HANDS
+
+// Additional
+//#define BOTH_SHIFTS_TURN_ON_CAPS_WORD
+# define CAPS_WORD_TOGGLE_KEY

@@ -11,6 +11,17 @@ BACKLIGHT_ENABLE = no       # Enable keyboard backlight functionality
 RGBLIGHT_ENABLE = no        # Enable keyboard RGB underglow
 AUDIO_ENABLE = no           # Audio output
 
-OLED_ENABLE = yes        # Enables the use of OLED displays
+#OLED_ENABLE = yes        # Enables the use of OLED displays
+#OLED_DRIVER = SSD1306    # Specifies the type of OLED
 SPLIT_KEYBOARD = yes     # Enables split functionality
 ENCODER_ENABLE = yes	 # Enables the encoders
+
+##################
+# Custom Additions
+##################
+CAPS_WORD_ENABLE = yes
+COMBO_ENABLE = yes
+REPEAT_KEY_ENABLE = yes
+MOUSEKEY_ENABLE = yes
+
+#BOOTLOADER = rp2040
